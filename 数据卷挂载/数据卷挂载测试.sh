@@ -1,0 +1,1 @@
+docker run -d -p 80:8080 --name tomcat1 -v /usr/local/share/myTomcatRoot:/usr/local/tomcat/webapps/ROOT myimage
